@@ -30,7 +30,7 @@ $cBlack: black;
       top: 0;
       left: 0;
       transform: translateX(-100%);
-      transition: transform 0.3s;
+      transition: transform 0.3s ease;
       z-index: -1;
     }
 
