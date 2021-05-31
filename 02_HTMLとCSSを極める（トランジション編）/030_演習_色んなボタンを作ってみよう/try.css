@@ -48,4 +48,17 @@
   -webkit-box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.5);
           box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.5);
 }
+
+.try .btn.solid {
+  -webkit-box-shadow: 2px 2px 0 0 black;
+          box-shadow: 2px 2px 0 0 black;
+  border-radius: 7px;
+}
+
+.try .btn.solid:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: translate(2px 2px);
+          transform: translate(2px 2px);
+}
 /*# sourceMappingURL=try.css.map */
