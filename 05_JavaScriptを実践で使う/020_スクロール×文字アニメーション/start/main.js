@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         entries.forEach(entry => {
             if(entry.isIntersecting) {
                  //文字が画面に入った時に、以下の処理を行う
-                const ta = new TextAnimation('.animate-title');
+                const ta = new TextAnimation(entry.target);
                 ta.animate();
                 //一度アニメーションが発火したらそのままにする
                 observer.unobserve(entry.target);
